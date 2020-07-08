@@ -17,7 +17,7 @@
 
 var materials = {
 		'mirror' : [false, true, true, true, true, true, true, true],
-		'file_names' : ["https://raw.githubusercontent.com/rcalinjageman/mirror_trace/master/sample.png", "https://csb-ram.netlify.app/star.png", "https://raw.githubusercontent.com/rcalinjageman/mirror_trace/master/trialh2.png", "https://raw.githubusercontent.com/rcalinjageman/mirror_trace/master/trialh3.png", "https://raw.githubusercontent.com/rcalinjageman/mirror_trace/master/trial1.png", "https://raw.githubusercontent.com/rcalinjageman/mirror_trace/master/trial2.png", "https://raw.githubusercontent.com/rcalinjageman/mirror_trace/master/trial3.png", "https://raw.githubusercontent.com/rcalinjageman/mirror_trace/master/sample.png"],
+		'file_names' : ["https://csb-ram.netlify.app/sample.png", "https://csb-ram.netlify.app/star.png", "https://csb-ram.netlify.app/trialh2.png", "https://csb-ram.netlify.app/trialh3.png", "https://csb-ram.netlify.app/trial1.png", "https://csb-ram.netlify.app/trial2.png", "https://csb-ram.netlify.app/trial3.png", "https://csb-ram.netlify.app/sample.png"],
 		'xstarts' : [47,	27,		40,		280,		27, 40, 280, 33],
 		'ystarts' : [256,	275,	45,		276,		275, 45, 276, 250],
 		'xends' :   [344,	370,	368,	33,			370, 368, 33, 47],
@@ -33,7 +33,7 @@ var materials = {
 	// the script can save screenshots of completed trials.  
 	// to use this feature, set saveTrace to true and set saveScript to your server.  Your server will need a php script for accepting the files.
 	// the php script is posted on github
-	var saveScript = "https://calin-jageman.net/mirror_trace/save.php"
+	var saveScript = "https://csb-ram.netlify.app/save.php"
 	var saveTrace = false;
 	
 
